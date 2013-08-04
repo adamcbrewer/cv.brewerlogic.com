@@ -256,7 +256,6 @@ module.exports = function(grunt) {
 
     // prep files for production
     grunt.registerTask('build', [
-        'modernizr',
         'less:production',
         'uglify:production'
     ]);

@@ -3,7 +3,7 @@
 	<header>
 		<h1 class="main-title">
 			<span class="highlight">Adam Brewer</span><br />
-			<small>Front-end web developer</small>
+			<small>Senior Front-end Web Developer</small>
 		</h1>
 	</header>
 	<section class="content">

@@ -1,16 +1,16 @@
 <?php
 $config = new stdClass;
 
-$config->env = 'dev';
+$config->env = 'live';
 
 // Analytics
-$config->ga = 'UA-XXXXXX-X';
+$config->ga = 'UA-31471338-1';
 
 // SEO and namimg
-$config->site_name = "Your New Site";
-$config->site_desc = "";
-$config->site_keywords = "";
-$config->author = "";
+$config->site_name = "Adam Brewer: Curriculum Vitae";
+$config->site_desc = "The curriculum vitae of Adam Brewer";
+$config->site_keywords = "resume, cv, adamcbrewer cv, adamcbrewer resume, curriculum vitae";
+$config->author = "Adam Brewer";
 $config->current_url = "http://" . $_SERVER["SERVER_NAME"]. $_SERVER["REQUEST_URI"];
 
 // Directory helpers
