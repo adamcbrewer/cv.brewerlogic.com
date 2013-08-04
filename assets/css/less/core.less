@@ -1,0 +1,239 @@
+/* ====================================================
+    LESS IMPORTS
+==================================================== */
+
+@import "libs/helpers.less";
+@import "libs/normalize.less";
+
+
+
+
+/* ====================================================
+    LESS VARIABLES
+==================================================== */
+@c-bg: #f8f8f8;
+@c-copy: #333;
+@c-blue: #2A6AC0;
+
+@ff-sans: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+@ff-serif: Baskerville, "utopia-std", "Hoefler Text", Georgia, Times, serif;
+@ff-mono: Monaco, Menlo, Consolas, "Courier New", monospace;
+
+
+/* ====================================================
+    BASE STYLES
+
+    Base rules are the defaults. They are almost exclusively
+    single element selectors but it could include attribute selectors,
+    pseudo-class selectors, child selectors or sibling selectors.
+    Essentially, a base style says that wherever this element is on the page,
+    it should look like...
+==================================================== */
+
+* {
+    /* remove this if supporting ie7 */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* for ie6 and 7 */
+    *behavior: url(/assets/css/vendor/boxsizing.htc);
+
+    /* some defaults */
+    // background-repeat: no-repeat;
+    // vertical-align: middle;
+}
+
+::-moz-selection{ background:#333; color:#F8F8F8; text-shadow:none; }
+::selection { background:#333; color:#F8F8F8; text-shadow:none; }
+
+html, body { -web-font-smoothing: antialiased; }
+html {
+    font-size: 62.5%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: @ff-sans;
+    background-color: @c-bg;
+    color: @c-copy;
+    .font-size(1.8);
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+::-webkit-input-placeholder {}
+:-moz-placeholder {}
+
+[type=search] {
+    /* resets webkit styling on search inputs */
+    -webkit-appearance: none;
+}
+/* Style the webkit validation message for forms */
+::-webkit-validation-bubble-message {
+padding: 40px;
+}
+
+a {
+    color: @c-blue;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    .transition(0.2s ease all 0s);
+}
+a:link {}
+a:visited {}
+a:hover {
+    border-bottom-color: @c-blue;
+    text-decoration: none;
+}
+a:active {}
+a:focus {}
+
+dl {
+    overflow: auto;
+    margin: 0;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 32%;
+    padding-right: 2em;
+}
+dd {
+    float: left;
+    width: 68%;
+    p {
+        margin-top: 0;
+    }
+}
+dt, dd {
+    margin: 0 0 0.2em;
+}
+dt, strong {
+    font-weight: 700;
+}
+
+
+/* ====================================================
+    LAYOUT STYLES
+
+    Layout rules divide the page into sections.
+    Layouts hold one or more modules together.
+==================================================== */
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em 4%;
+}
+.content {
+    margin: 3em 0;
+}
+.main-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 2em;
+}
+
+/* ====================================================
+    MODULES STYLES
+
+    Modules are the reusable, modular parts of our design.
+    They are the callouts, the sidebar sections, the product lists and so on.
+==================================================== */
+.highlight {
+    color: @c-blue;
+}
+
+.title {
+    margin: 0;
+}
+
+.section {
+    margin: 2em auto;
+    overflow: auto;
+
+    &:not(.profile) {
+        dt, dd {
+            margin-bottom: 1em;
+        }
+    }
+
+}
+
+.section-title {
+    .font-size(2.4);
+    text-transform: uppercase;
+    color: @c-blue;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+
+
+/* ====================================================
+    STATES STYLES
+
+    State rules are ways to describe how our modules or layouts will
+    look when in a particular state.
+    Is it hidden or expanded? Is it active or inactive?
+    They are about describing how a module or layout looks on screens that are smaller or bigger.
+    They are also about describing how a module might look in different
+    views like the home page or the inside page.
+==================================================== */
+
+
+
+
+/* ==|== Media Queries ======================================================
+    PLACEHOLDER Media Queries for Responsive Design.
+    Modify as content requires.
+
+    Notes:
+    MOBILE FIRST - use min-width (lowest first) and style upwards
+    MOBILE RESPONSIVE - use max-width (highest first) and style downwards
+
+    Never set breakpoints for devices, only when the design requires it.
+========================================================================== */
+@media screen and (max-width: 440px) {
+    .main-title {
+        margin-bottom: 0;
+    }
+    dt, dd {
+        float: none;
+        width: 100%;
+    }
+    dt {
+        margin-bottom: 0em !important;
+    }
+    dd {
+        margin-bottom: 1.6em !important;
+        .profile & {
+            margin-bottom: 1em !important;
+        }
+    }
+}
+
+
+
+/* ==|== print styles =======================================================
+    Print styles.
+    Inlined to avoid required HTTP connection: h5bp.com/r
+========================================================================== */
+
+@media print {
+    * { background: transparent !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+    body { .font-size(1.4) }
+    a, a:visited { text-decoration: none; }
+    // a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; } /* h5bp.com/t */
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
+}
