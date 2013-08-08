@@ -21,7 +21,7 @@
 				<dd><a target="_blank" href="http://linkedin.com/in/adamcbrewer">linkedin.com/in/adamcbrewer</a></dd>
 
 				<dt>Email</dt>
-				<dd><a href="mailto:adamcbrewer@gmail.com">adamcbrewer@gmail.com</a></dd>
+				<dd><a href="mailto:adam@brewerlogic.com">adam@brewerlogic.com</a></dd>
 
 				<dt>Summary</dt>
 				<dd>
