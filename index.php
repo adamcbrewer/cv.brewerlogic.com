@@ -56,7 +56,8 @@
 				<dt>Aug 2013 – present</dt>
 				<dd>
 					<p>
-						<strong>Freelance Front-end Web Developer</strong>
+						<strong>Developer at Brewer Logic</strong> <br>
+						Freelancing for clients such as Gather.ly, Toaster Ltd, Brewers.co.za and Google.
 					</p>
 				</dd>
 
