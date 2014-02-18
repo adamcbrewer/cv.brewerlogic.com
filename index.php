@@ -3,7 +3,7 @@
 	<header>
 		<h1 class="main-title">
 			<span class="highlight">Adam Brewer</span><br />
-			<small>Senior Front-end Web Developer</small>
+			<small>Web Developer</small>
 		</h1>
 	</header>
 	<section class="content">
@@ -41,10 +41,10 @@
 				<dd>JavaScript, HTML5, CSS3, PHP</dd>
 
 				<dt>Frameworks</dt>
-				<dd>jQuery, MooTools, LESS, SASS, Node.js, CodeIgniter, Laravel, WordPress</dd>
+				<dd>Any Javascript frameworks or libraries, LESS/SASS, Node.js, Laravel, CodeIgniter, WordPress</dd>
 
 				<dt>Workflow</dt>
-				<dd>Git, Mercurial, Grunt.js, Responsive Design, Command Line</dd>
+				<dd>Git, Mercurial, Sublime Text, Grunt.js, Responsive Design, Command Line</dd>
 			</section>
 		</article>
 
@@ -53,18 +53,19 @@
 				<h2 class="section-title">Experience</h2>
 			</header>
 			<section>
-				<dt>Aug 2013 – present</dt>
+				<dt>Aug 2013 - Present</dt>
 				<dd>
 					<p>
-						<strong>Developer at Brewer Logic</strong> <br>
-						Freelancing for clients such as Gather.ly, Toaster Ltd, Brewers.co.za and Google.
+						<strong>Freelance Developer at <a href="http://brewerlogic.com" target="_blank">Brewer Logic</a></strong> <br>
+						Freelancing for clients such as <a href="http://gather.ly" target="_blank">Gather.ly</a>,
+						<a href="http://toasterltd.com" target="_blank">Toaster Ltd</a>, <a href="http://birchstudio.co.uk" target="_blank">Birch Studios</a>, <a href="http://brewers.co.za" target="_blank">Brewers.co.za</a> and Google.
 					</p>
 				</dd>
 
 				<dt>Dec 2012 – July 2013</dt>
 				<dd>
 					<p>
-						<strong>Saatchi &amp; Saatchi, London</strong><br />
+						<strong><a href="http://saatchi.co.uk" target="_blank">Saatchi &amp; Saatchi, London</a></strong><br />
 						A Senior Developer building semantic, mobile-responsive websites
 						and apps optimised for both speed and performance, while also making
 						sure the company utilised good front-end practices, complying with
@@ -76,7 +77,7 @@
 				<dt>Mar 2011 – Dec 2012</dt>
 				<dd>
 					<p>
-						<strong>Outside Line</strong><br />
+						<strong><a href="http://outsideline.co.uk" target="_blank">Outside Line</a></strong><br />
 						A mid-level developer building mobile-responsive, semantic and
 						high performance websites and applications across a broad range
 						of clients. I have also helped build in-house applications for
