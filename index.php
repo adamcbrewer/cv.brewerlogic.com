@@ -40,11 +40,8 @@
 				<dt>Languages</dt>
 				<dd>JavaScript, HTML5, CSS3, PHP</dd>
 
-				<dt>Frameworks</dt>
-				<dd>Any Javascript frameworks or libraries, LESS/SASS, Node.js, Laravel, CodeIgniter, WordPress</dd>
-
-				<dt>Workflow</dt>
-				<dd>Git, Mercurial, Sublime Text, Grunt.js, Responsive Design, Command Line</dd>
+				<dt>Frameworks and Workflow</dt>
+				<dd>Angular.js, Backbone.js, Ember.js, CSS pre/post processors, Node.js, Laravel, Git, Mercurial, Grunt.js, Gulp.js, command line, API development, responsive design, mobile optimisations, browser performance.</dd>
 			</section>
 		</article>
 
@@ -53,16 +50,15 @@
 				<h2 class="section-title">Experience</h2>
 			</header>
 			<section>
-				<dt>Aug 2013 - Present</dt>
+				<dt>Aug 2013 &mdash; Present</dt>
 				<dd>
 					<p>
 						<strong>Freelance Developer at <a href="http://brewerlogic.com" target="_blank">Brewer Logic</a></strong> <br>
-						Freelancing for clients such as <a href="http://gather.ly" target="_blank">Gather.ly</a>,
-						<a href="http://toasterltd.com" target="_blank">Toaster Ltd</a>, <a href="http://birchstudio.co.uk" target="_blank">Birch Studios</a>, <a href="http://brewers.co.za" target="_blank">Brewers.co.za</a> and Google.
+						Contracting for clients such as <a href="http://uk.burberry.com">Burberry</a>, <a href="https://learn.blackwell.co.uk">Blackwell's</a>, <a href="http://www.ashthorp.com">Ash Thorp</a>, <a href="http://gather.ly" target="_blank">Gather.ly</a>, <a href="http://toasterltd.com" target="_blank">Toaster Ltd</a>, <a href="http://birchstudio.co.uk" target="_blank">Birch Studios</a>, <a href="http://brewers.co.za" target="_blank">Brewers.co.za</a> and Google.
 					</p>
 				</dd>
 
-				<dt>Dec 2012 – July 2013</dt>
+				<dt>Dec 2012 &mdash; July 2013</dt>
 				<dd>
 					<p>
 						<strong><a href="http://saatchi.co.uk" target="_blank">Saatchi &amp; Saatchi, London</a></strong><br />
@@ -74,7 +70,7 @@
 					</p>
 				</dd>
 
-				<dt>Mar 2011 – Dec 2012</dt>
+				<dt>Mar 2011 &mdash; Dec 2012</dt>
 				<dd>
 					<p>
 						<strong><a href="http://outsideline.co.uk" target="_blank">Outside Line</a></strong><br />
@@ -82,25 +78,25 @@
 						high performance websites and applications across a broad range
 						of clients. I have also helped build in-house applications for
 						the company, including a database accessibility app for account
-						managers – as well as supervising incoming juniors. Client experience
+						managers &mdash; as well as supervising incoming juniors. Client experience
 						includes: Becks, Budweiser, Nominet, Castello, Lurpak, Aunt
 						Bessies and Virgin Galactic.
 					</p>
 				</dd>
 
-				<dt>Nov 2010 – Feb 2011</dt>
+				<dt>Nov 2010 &mdash; Feb 2011</dt>
 				<dd>
 					<p>
 						<strong>Brewer's Data Applications</strong><br />
 						Moved my father's business online by building both the CMS and
 						front-end for his web app after only a few short months in the
 						industry. My work has improved much since then, but the challenge
-						and learning curve at the time, to me, was incredible – it opened
+						and learning curve at the time, to me, was incredible &mdash; it opened
 						doors.
 					</p>
 				</dd>
 
-				<dt>Aug 2010 – Nov 2010</dt>
+				<dt>Aug 2010 &mdash; Nov 2010</dt>
 				<dd>
 					<p>
 						<strong>QuickOnline</strong><br />
@@ -110,7 +106,7 @@
 					</p>
 				</dd>
 
-				<dt>Jun 2010 – Jul 2010</dt>
+				<dt>Jun 2010 &mdash; Jul 2010</dt>
 				<dd>
 					<p>
 						<strong>IMS Nielson</strong><br />
@@ -120,7 +116,7 @@
 					</p>
 				</dd>
 
-				<dt>Feb 2010 – May 2010</dt>
+				<dt>Feb 2010 &mdash; May 2010</dt>
 				<dd>
 					<p>
 						<strong>20fourlabs.com</strong><br />
@@ -128,7 +124,7 @@
 					</p>
 				</dd>
 
-				<dt>Feb 2005 – Nov 2009</dt>
+				<dt>Feb 2005 &mdash; Nov 2009</dt>
 				<dd>
 					<p>
 						<strong>Aircraft Technician in the British Army</strong><br />
@@ -144,7 +140,7 @@
 				<h2 class="section-title">Education</h2>
 			</header>
 			<section>
-				<dt>Sep 2009 – Nov 2009</dt>
+				<dt>Sep 2009 &mdash; Nov 2009</dt>
 				<dd>
 					<p>
 						<strong>LPIC-1 - Linux Administrator L1</strong><br />
@@ -152,7 +148,7 @@
 					</p>
 				</dd>
 
-				<dt>Apr 2005 – Oct 2006</dt>
+				<dt>Apr 2005 &mdash; Oct 2006</dt>
 				<dd>
 					<p>
 						<strong>REME School of Aeronautical Engineering</strong><br />
@@ -160,7 +156,7 @@
 					</p>
 				</dd>
 
-				<dt>Jan 2003 – Dec 2003</dt>
+				<dt>Jan 2003 &mdash; Dec 2003</dt>
 				<dd>
 					<p>
 						<strong>University of Cape Town</strong><br />
